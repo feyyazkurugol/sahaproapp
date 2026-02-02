@@ -1,63 +1,48 @@
 # =====================
-# Global
+# Global / Secrets
 # =====================
 .env
 .env.*
 *.log
 
 # =====================
-# .NET
+# .NET build / IDE
 # =====================
-bin/
-obj/
+**/bin/
+**/obj/
 .vs/
 *.user
 *.suo
 
 # =====================
-# ASP.NET uploads
+# ASP.NET runtime uploads (DO NOT COMMIT)
 # =====================
-wwwroot/uploads/
+SahaPro.Api/wwwroot/uploads/
+SahaPro.Api/wwwroot/uploads/**
 
 # =====================
 # Node / Next.js
 # =====================
-node_modules/
-.next/
+**/node_modules/
+**/.next/
 out/
 dist/
 
 # =====================
-# OS / IDE
+# OS
 # =====================
 .DS_Store
 Thumbs.db
 
 # =====================
-# Junk / accidental
+# Junk / accidental (root level)
 # =====================
-dir
-git
-cd
-dotnet
-10
-6
-30.01.2026
-Directory
-type
-
-# build outputs
-**/bin/
-**/obj/
-sahapro-web/.next/
-sahapro-web/node_modules/
-
-# runtime uploads
-SahaPro.Api/wwwroot/uploads/
-SahaPro.Api/wwwroot/uploads/**
-# build
-**/bin/
-**/obj/
-
-# uploads (runtime)
-SahaPro.Api/wwwroot/uploads/
+/dir
+/git
+/cd
+/dotnet
+/10
+/6
+/30.01.2026
+/Directory
+/type
