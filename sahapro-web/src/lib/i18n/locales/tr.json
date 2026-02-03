@@ -1,0 +1,186 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "redirecting": "Yönlendiriliyor...",
+    "refresh": "Yenile",
+    "status": "Durum",
+    "records": "kayıt",
+    "noRecords": "Kayıt yok.",
+    "copyId": "ID Kopyala",
+    "not_found": "Kayıt bulunamadı",
+    "unknown": "-",
+    "open_in_maps": "Haritada Aç",
+    "uploading": "Yükleniyor...",
+    "working": "...",
+    "delete": "Sil",
+    "none_yet": "Henüz yok",
+    "saving": "Kaydediliyor...",
+    "close": "Kapat"
+  },
+  "nav": {
+    "menu": "Menü",
+    "close_menu": "Menüyü Kapat"
+  },
+  "status": {
+    "pending": "Bekleyen",
+    "in_progress": "Devam Eden",
+    "completed": "Tamamlanan",
+    "cancelled": "İptal",
+    "all": "Tümü",
+    "unknown": "Bilinmiyor"
+  },
+  "dispatch": {
+    "title": "Dispatch",
+    "subtitle": "Soldan iş seç → sağdan tech seç → ata.",
+    "forbidden": "Bu sayfaya sadece owner ve dispatcher erişebilir.",
+    "searchPlaceholder": "Ara: müşteri, site, adres, not...",
+    "listTitle": "İş Listesi",
+    "selectedTitle": "Seçili İş",
+    "selectHint": "Soldan bir iş seç.",
+    "plan": "Plan",
+    "customer": "Müşteri",
+    "siteAddress": "Site / Adres",
+    "detailHint": "Detay: tech ekranında",
+    "assignTitle": "Atama",
+    "techUser": "Tech Kullanıcı",
+    "techLoading": "Tech listesi yükleniyor...",
+    "noTech": "Tech bulunamadı",
+    "noteOptional": "Not (opsiyonel)",
+    "notePlaceholder": "örn: Bugün acil, öğleden önce",
+    "assign": "Tech'e Ata",
+    "assigning": "Atanıyor...",
+    "clearNote": "Notu Temizle",
+    "assignOk": "✅ Atama başarılı."
+  },
+  "geo": {
+    "browser_only": "Konum sadece tarayıcıda alınır.",
+    "not_supported": "Tarayıcı konum desteklemiyor.",
+    "permission_denied": "Konum izni verilmedi.",
+    "unavailable": "Konum alınamadı (GPS kapalı olabilir).",
+    "timeout": "Konum zaman aşımına uğradı.",
+    "unknown_error": "Konum hatası.",
+    "ok_with_accuracy": "Konum alındı ✅ (±{{m}}m)",
+    "continue_without": "{{reason}} (Konumsuz devam edildi)"
+  },
+  "errors": {
+    "tenant_required": "Tenant bilgisi gerekli.",
+    "tech_user_required": "Teknisyen bilgisi gerekli.",
+    "detail_fetch_failed": "Detay alınamadı.",
+    "start_failed": "Başlatma başarısız.",
+    "complete_failed": "Bitirme başarısız.",
+    "cancel_failed": "İptal başarısız.",
+    "photo_upload_failed": "Foto yükleme başarısız.",
+    "delete_failed": "Silme başarısız.",
+    "payment_failed": "Tahsilat kaydı başarısız.",
+    "invalid_amount": "Geçerli bir tutar gir (örn: 1500)",
+    "work_order_locked_completed": "İş tamamlandı. Bu işlem kilitli."
+  },
+  "job": {
+    "title": {
+      "fallback": "İş"
+    },
+    "meta": {
+      "plan": "Plan",
+      "started": "Başladı",
+      "completed": "Bitti"
+    },
+    "location": {
+      "start": "Başlangıç Konumu",
+      "end": "Bitiş Konumu"
+    },
+    "call_customer": "Müşteriyi Ara",
+    "address": {
+      "copy": "Adresi Kopyala",
+      "copied": "Adres kopyalandı ✅"
+    },
+    "hint": {
+      "start": "İşe başlayınca süre ve konum kaydı başlar.",
+      "complete": "İşi bitirince foto + tahsilat ekleyebilirsin.",
+      "cancelled": "İş iptal edildi.",
+      "completed_locked": "İş tamamlandı. Fotoğraflar kilitli (sadece görüntülenir)."
+    },
+    "cancel": {
+      "title": "İş İptal Edildi",
+      "reason": "Sebep",
+      "prompt_reason": "İptal sebebi (örn: müşteri yok / ulaşılamadı / malzeme yok):",
+      "success": "İş iptal edildi ✅"
+    },
+    "actions": {
+      "title": "Aksiyonlar",
+      "start": "İşe Başla",
+      "start_busy": "Konum alınıyor & Başlatılıyor...",
+      "complete": "İşi Bitir",
+      "complete_busy": "Konum alınıyor & Bitiriliyor...",
+      "cancel": "İşi İptal Et",
+      "cancel_busy": "İptal ediliyor...",
+      "disabled": "Aksiyon kapalı (iş durumuna göre)."
+    },
+    "photos": {
+      "title": "Fotoğraflar",
+      "before": "Öncesi",
+      "after": "Sonrası",
+      "add_before": "Öncesi Ekle",
+      "add_after": "Sonrası Ekle",
+      "before_added": "Öncesi foto eklendi ✅",
+      "after_added": "Sonrası foto eklendi ✅",
+      "delete_confirm": "Bu foto silinsin mi?",
+      "deleted": "Foto silindi ✅",
+      "locked": "İş tamamlandı: foto düzenleme kilitli.",
+      "need_in_progress": "Foto eklemek için iş başlamalı.",
+      "note_lock": "Not: İş tamamlandıktan sonra foto ekleme/silme/değiştirme kilitlenir."
+    },
+    "payment": {
+      "title": "Tahsilat",
+      "amount_placeholder": "Tutar (örn: 1500)",
+      "save": "Tahsilat Kaydet",
+      "saved": "Tahsilat kaydedildi ✅",
+      "none_yet": "Henüz tahsilat yok"
+    }
+  },
+  "payment": {
+    "method": {
+      "cash": "Nakit",
+      "transfer": "Havale/EFT",
+      "pos_later": "POS Sonra"
+    }
+  },
+  "auth": {
+    "logout": "Çıkış Yap"
+  },
+  "navItems": {
+    "jobs": "İşlerim",
+    "dispatch": "Dispatch",
+    "ownerUsers": "Kullanıcılar"
+  },
+  "admin": {
+    "users": {
+      "title": "Kullanıcılar",
+      "subtitle": "Firma kullanıcılarını yönet (rol, durum, şifre).",
+      "new": "Yeni Kullanıcı",
+      "search_placeholder": "Ara: ad, telefon, e-posta, rol",
+      "search": "Ara",
+      "list_title": "Liste",
+      "count": "{{n}} kullanıcı",
+      "no_users": "Kullanıcı yok.",
+      "loading": "Yükleniyor...",
+      "role": "Rol",
+      "status": "Durum",
+      "created_at": "Oluşturulma",
+      "reset_password": "Şifre Sıfırla",
+      "reset_confirm": "Şifre sıfırlansın mı? Yeni geçici şifre üretilecek.",
+      "force_password_change": "Şifre değişimi zorunlu",
+      "create": {
+        "title": "Kullanıcı Oluştur",
+        "subtitle": "Geçici bir şifre oluşturulacaktır.",
+        "full_name": "Ad Soyad",
+        "phone": "Telefon",
+        "email": "E-posta (opsiyonel)",
+        "role": "Rol",
+        "submit": "Oluştur",
+        "submitting": "Oluşturuluyor..."
+      },
+      "created_ok": "✅ Kullanıcı oluşturuldu. Geçici şifre: {{p}}",
+      "reset_ok": "✅ Geçici şifre: {{p}}"
+    }
+  }
+}
