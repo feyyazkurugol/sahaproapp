@@ -1,0 +1,161 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "redirecting": "Redirecting...",
+    "refresh": "Refresh",
+    "status": "Status",
+    "records": "records",
+    "noRecords": "No records.",
+    "copyId": "Copy ID",
+
+    "not_found": "Not found",
+    "unknown": "-",
+    "open_in_maps": "Open in Maps",
+    "uploading": "Uploading...",
+    "working": "...",
+    "delete": "Delete",
+    "none_yet": "None yet",
+    "saving": "Saving..."
+  },
+
+  "status": {
+    "pending": "Pending",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "all": "All",
+    "unknown": "Unknown"
+  },
+
+  "dispatch": {
+    "title": "Dispatch",
+    "subtitle": "Pick a job on the left → pick a tech on the right → assign.",
+    "forbidden": "Only owner and dispatcher can access this page.",
+    "searchPlaceholder": "Search: customer, site, address, notes...",
+    "listTitle": "Job List",
+    "selectedTitle": "Selected Job",
+    "selectHint": "Select a job from the left.",
+    "plan": "Schedule",
+    "customer": "Customer",
+    "siteAddress": "Site / Address",
+    "detailHint": "Details: on tech screen",
+    "assignTitle": "Assignment",
+    "techUser": "Tech User",
+    "techLoading": "Loading tech users...",
+    "noTech": "No tech users found",
+    "noteOptional": "Note (optional)",
+    "notePlaceholder": "e.g. Urgent today, before noon",
+    "assign": "Assign to Tech",
+    "assigning": "Assigning...",
+    "clearNote": "Clear Note",
+    "assignOk": "✅ Assigned successfully."
+  },
+
+  "geo": {
+    "browser_only": "Location can only be obtained in the browser.",
+    "not_supported": "Geolocation is not supported by this browser.",
+    "permission_denied": "Location permission was denied.",
+    "unavailable": "Unable to get location (GPS may be off).",
+    "timeout": "Location request timed out.",
+    "unknown_error": "Location error.",
+    "ok_with_accuracy": "Location acquired ✅ (±{{m}}m)",
+    "continue_without": "{{reason}} (continued without location)"
+  },
+
+  "errors": {
+    "tenant_required": "Tenant is required.",
+    "tech_user_required": "Tech user is required.",
+    "detail_fetch_failed": "Failed to load details.",
+    "start_failed": "Failed to start the job.",
+    "complete_failed": "Failed to complete the job.",
+    "cancel_failed": "Failed to cancel the job.",
+    "photo_upload_failed": "Photo upload failed.",
+    "delete_failed": "Delete failed.",
+    "payment_failed": "Failed to save payment.",
+    "invalid_amount": "Enter a valid amount (e.g. 1500)",
+    "work_order_locked_completed": "This job is completed and locked."
+  },
+
+  "job": {
+    "title": { "fallback": "Job" },
+
+    "meta": {
+      "plan": "Plan",
+      "started": "Started",
+      "completed": "Finished"
+    },
+
+    "location": {
+      "start": "Start Location",
+      "end": "End Location"
+    },
+
+    "call_customer": "Call Customer",
+
+    "address": {
+      "copy": "Copy Address",
+      "copied": "Address copied ✅"
+    },
+
+    "hint": {
+      "start": "When you start, time tracking and location recording begin.",
+      "complete": "After finishing, you can add photos + payment.",
+      "cancelled": "Job was cancelled.",
+      "completed_locked": "Job is completed. Photos are locked (view only)."
+    },
+
+    "cancel": {
+      "title": "Job Cancelled",
+      "reason": "Reason",
+      "prompt_reason": "Cancel reason (e.g. customer not available / unreachable / no materials):",
+      "success": "Job cancelled ✅"
+    },
+
+    "actions": {
+      "title": "Actions",
+      "start": "Start Job",
+      "start_busy": "Getting location & Starting...",
+      "complete": "Complete Job",
+      "complete_busy": "Getting location & Completing...",
+      "cancel": "Cancel Job",
+      "cancel_busy": "Cancelling...",
+      "disabled": "Actions disabled (based on job status)."
+    },
+    "geo": {
+  "ok": "Location acquired ✅",
+  "continue_without_location": "continued without location"
+},
+
+
+    "photos": {
+      "title": "Photos",
+      "before": "Before",
+      "after": "After",
+      "add_before": "Add Before",
+      "add_after": "Add After",
+      "before_added": "Before photo added ✅",
+      "after_added": "After photo added ✅",
+      "delete_confirm": "Delete this photo?",
+      "deleted": "Photo deleted ✅",
+      "locked": "Job completed: photo editing is locked.",
+      "need_in_progress": "Start the job to add photos.",
+      "note_lock": "Note: After completion, adding/deleting/changing photos is locked."
+    },
+
+    "payment": {
+      "title": "Payment",
+      "amount_placeholder": "Amount (e.g. 1500)",
+      "save": "Save Payment",
+      "saved": "Payment saved ✅",
+      "none_yet": "No payments yet"
+    }
+  },
+
+  "payment": {
+    "method": {
+      "cash": "Cash",
+      "transfer": "Bank Transfer",
+      "pos_later": "POS Later"
+    }
+  }
+}
